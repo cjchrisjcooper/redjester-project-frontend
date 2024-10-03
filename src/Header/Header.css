@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  font-family: BebasNeue-Regular, sans-serif;
+  color: white;
+  background-color: rgba(202, 24, 24, 1);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  max-width: 100%;
+  padding: 15px;
+  height: 65px;
+}
+
+.header__main-content {
+  display: flex;
+  gap: 10px;
+}
+
+.header__button {
+  margin: 0;
+  padding: 0;
+  font-family: BebasNeue-Regular, sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__logo-image {
+  width: 85px;
+  height: 75px;
+  border-radius: 50%;
+}
