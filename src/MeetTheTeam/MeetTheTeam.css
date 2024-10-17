@@ -1,0 +1,12 @@
+.MeetTheTeam {
+  margin: 20px 0 20px;
+  font-family: BebasNeue-Regular, sans-serif;
+}
+.MeetTheTeam__intro {
+  font-family: BebasNeue-Regular, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 450px;
+  border-bottom: 2px solid black;
+  text-align: start;
+}

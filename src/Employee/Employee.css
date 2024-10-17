@@ -1,0 +1,27 @@
+.Employee {
+  display: flex;
+  gap: 20px;
+  font-family: BebasNeue-Regular, sans-serif;
+}
+
+.Employee__picture-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.Employee__description {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 880px) {
+}
+
+@media screen and (max-width: 730px) {
+}
+
+@media screen and (max-width: 440px) {
+}
