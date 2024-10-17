@@ -1,0 +1,51 @@
+.Game {
+  display: flex;
+  gap: 20px;
+  font-family: BebasNeue-Regular, sans-serif;
+}
+
+.Game__logo {
+}
+
+.Game__logo-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.Game__description {
+  font-size: 24px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 880px) {
+  .Game__description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .Game {
+    gap: 10px;
+  }
+  .Game__logo-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .Game {
+    flex-direction: column;
+  }
+  .Game__description {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .Game__description {
+    font-size: 12px;
+  }
+}

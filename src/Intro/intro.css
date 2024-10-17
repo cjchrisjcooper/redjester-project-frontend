@@ -1,28 +1,29 @@
 .Intro {
   display: flex;
-  margin: 55px 40px 15px;
+  margin: 55px auto 55px;
   gap: 150px;
+  font-family: BebasNeue-Regular, sans-serif;
 }
 
 .Intro__text {
   max-width: 800px;
 }
+.intro__logo {
+  margin: 0px auto 0px;
+}
 
 .Intro__mission-statement {
-  font-family: BebasNeue-Regular, sans-serif;
   color: black;
   font-size: 55px;
   font-weight: bold;
 }
 
 .intro__text_small {
-  font-family: BebasNeue-Regular, sans-serif;
   color: black;
   font-size: 24px;
 }
 
 .intro__invitation {
-  font-family: BebasNeue-Regular, sans-serif;
   color: black;
   font-size: 16px;
 }
@@ -31,4 +32,35 @@
   width: 400px;
   height: 400px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Intro {
+    gap: 50px;
+  }
+  .Intro__text {
+    max-width: 600px;
+  }
+  .Intro__mission-statement {
+    font-size: 35px;
+  }
+  .intro__text_small {
+    font-size: 16px;
+  }
+  .intro__invitation {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .Intro__logo-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .Intro {
+    flex-direction: column;
+  }
 }

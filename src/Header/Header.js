@@ -8,15 +8,25 @@ const Header = () => {
         <img src={Logo} className="header__logo-image" alt="logo"></img>
       </div>
       <div className="header__main-content">
-        <button className="header__button">Games</button>
+        <button className="header__button header__button_hover_purple">
+          Games
+        </button>
 
-        <button className="header__button">Meet the Team</button>
+        <button className="header__button header__button_hover_blue">
+          Meet the Team
+        </button>
 
-        <button className="header__button">About us</button>
+        <button className="header__button header__button_hover_yellow">
+          About us
+        </button>
 
-        <button className="header__button">Subscribe</button>
+        <button className="header__button header__button_hover_maroon">
+          Subscribe
+        </button>
 
-        <button className="header__button">Sign up</button>
+        <button className="header__button  header__button_hover_green">
+          Sign up
+        </button>
       </div>
     </header>
   );

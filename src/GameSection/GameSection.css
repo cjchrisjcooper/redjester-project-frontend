@@ -1,0 +1,12 @@
+.gameSection {
+  max-width: 100%;
+}
+
+.GameSection__intro {
+  font-family: BebasNeue-Regular, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 450px;
+  border-bottom: 2px solid black;
+  text-align: start;
+}
