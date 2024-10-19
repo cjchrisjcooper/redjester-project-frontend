@@ -12,16 +12,27 @@
 
 .Employee__description {
   font-size: 24px;
+  max-width: 600px;
 }
 
 @media screen and (max-width: 1200px) {
 }
 
 @media screen and (max-width: 880px) {
+  .Employee__description {
+    font-size: 16px;
+  }
+  .Employee__picture-image {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 730px) {
-}
-
-@media screen and (max-width: 440px) {
+  .Employee {
+    flex-direction: column;
+  }
+  .Employee__description {
+    max-width: 100%;
+  }
 }

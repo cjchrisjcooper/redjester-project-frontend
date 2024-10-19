@@ -1,8 +1,8 @@
+import Footer from "../Footer/Footer.js";
 import GameSection from "../GameSection/GameSection";
 import Intro from "../Intro/intro";
 import MeetTheTeam from "../MeetTheTeam/MeetTheTeam.js";
 import "./Main.css";
-import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -10,6 +10,7 @@ const Main = () => {
       <Intro />
       <GameSection />
       <MeetTheTeam />
+      <Footer />
     </div>
   );
 };

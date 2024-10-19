@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  font-family: BebasNeue-Regular, sans-serif;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 730px) {
+  .Footer {
+    margin-top: 80px;
+  }
+}
