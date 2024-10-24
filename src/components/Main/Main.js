@@ -1,4 +1,3 @@
-import Footer from "../Footer/Footer.js";
 import GameSection from "../GameSection/GameSection";
 import Intro from "../Intro/intro";
 import MeetTheTeam from "../MeetTheTeam/MeetTheTeam.js";
@@ -10,7 +9,6 @@ const Main = () => {
       <Intro />
       <GameSection />
       <MeetTheTeam />
-      <Footer />
     </div>
   );
 };

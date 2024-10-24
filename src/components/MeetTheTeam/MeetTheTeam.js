@@ -1,8 +1,6 @@
 import Employee from "../Employee/Employee";
-import GameSection from "../GameSection/GameSection";
-import Intro from "../Intro/intro";
 import "./MeetTheTeam.css";
-import { employees } from "../Utils/Constants";
+import { employees } from "../../Utils/Constants";
 
 const MeetTheTeam = () => {
   return (
