@@ -1,4 +1,4 @@
-import Logo from "../images/CopyRedJester1.jpg";
+import Logo from "../../images/CopyRedJester1.jpg";
 import "./Game.css";
 const Game = () => {
   return (

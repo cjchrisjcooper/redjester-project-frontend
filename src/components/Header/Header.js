@@ -1,7 +1,6 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
-import Logo from "../images/CopyRedJester1.jpg";
-const Header = () => {
+import Logo from "../../images/CopyRedJester1.jpg";
+const Header = ({ handleRegisterModal }) => {
   return (
     <header className="header">
       <div className="header__logo">
@@ -24,7 +23,10 @@ const Header = () => {
           Subscribe
         </button>
 
-        <button className="header__button  header__button_hover_green">
+        <button
+          className="header__button  header__button_hover_green"
+          onClick={handleRegisterModal}
+        >
           Sign up
         </button>
       </div>

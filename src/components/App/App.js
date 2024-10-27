@@ -2,15 +2,26 @@ import "./App.css";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer.js";
-import ModalWithForm from "../ModalWithForm/ModalWithForm.js";
+import RegisterModal from "../RegisterModal/RegisterModal.js";
+import { useState } from "react";
 function App() {
+  const [activeModal, setActiveModal] = useState("");
+
+  const handleRegisterModal = () => {
+    setActiveModal("register");
+  };
+
+  const handleCloseModal = () => {
+    setActiveModal("");
+  };
   return (
     <div className="App">
-      <Header />
+      <Header handleRegisterModal={handleRegisterModal} />
       <Main />
-      <ModalWithForm title={"SIGN UP"} onClose={""}>
-        These are the children
-      </ModalWithForm>
+      {activeModal === "register" && (
+        <RegisterModal handleCloseModal={handleCloseModal} />
+      )}
+
       <Footer />
     </div>
   );

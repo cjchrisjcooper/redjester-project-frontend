@@ -1,6 +1,5 @@
 import "./intro.css";
-import { Link } from "react-router-dom";
-import Logo from "../images/CopyRedJester1.jpg";
+import Logo from "../../images/CopyRedJester1.jpg";
 const Intro = () => {
   return (
     <div className="Intro">

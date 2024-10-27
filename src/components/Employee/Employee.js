@@ -1,5 +1,4 @@
 import "./Employee.css";
-import picture from "../images/emp-1-pic.jpg";
 
 const Employee = ({ item }) => {
   console.log(item.description);
@@ -9,7 +8,7 @@ const Employee = ({ item }) => {
         <img
           src={item.Photo}
           className="Employee__picture-image"
-          alt="Employee Picture"
+          alt="Employee"
         ></img>
         <p>{item.Name}</p>
         <p>Role: {item.Role}</p>
