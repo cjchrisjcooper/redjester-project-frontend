@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer.js";
 import RegisterModal from "../RegisterModal/RegisterModal.js";
+import SubscribeModal from "../SubscribeModal/SubscribeModal.js";
 import { useState } from "react";
 function App() {
   const [activeModal, setActiveModal] = useState("");
@@ -11,15 +12,25 @@ function App() {
     setActiveModal("register");
   };
 
+  const handleSebscribeModal = () => {
+    setActiveModal("subscribe");
+  };
+
   const handleCloseModal = () => {
     setActiveModal("");
   };
   return (
     <div className="App">
-      <Header handleRegisterModal={handleRegisterModal} />
+      <Header
+        handleRegisterModal={handleRegisterModal}
+        handleSubscribeModal={handleSebscribeModal}
+      />
       <Main />
       {activeModal === "register" && (
         <RegisterModal handleCloseModal={handleCloseModal} />
+      )}
+      {activeModal === "subscribe" && (
+        <SubscribeModal handleCloseModal={handleCloseModal} />
       )}
 
       <Footer />

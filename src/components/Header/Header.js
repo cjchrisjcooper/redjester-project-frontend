@@ -1,6 +1,6 @@
 import "./Header.css";
 import Logo from "../../images/CopyRedJester1.jpg";
-const Header = ({ handleRegisterModal }) => {
+const Header = ({ handleRegisterModal, handleSubscribeModal }) => {
   return (
     <header className="header">
       <div className="header__logo">
@@ -19,7 +19,10 @@ const Header = ({ handleRegisterModal }) => {
           About us
         </button>
 
-        <button className="header__button header__button_hover_maroon">
+        <button
+          className="header__button header__button_hover_maroon"
+          onClick={handleSubscribeModal}
+        >
           Subscribe
         </button>
 

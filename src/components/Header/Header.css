@@ -16,6 +16,11 @@
   gap: 10px;
 }
 
+.header__link {
+  text-decoration: none;
+  color: white;
+}
+
 .header__button {
   margin: 0;
   padding: 0;
