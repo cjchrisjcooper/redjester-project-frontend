@@ -14,3 +14,8 @@ export const getUselessFact = () => {
   });
   return uselessFactApi;
 };
+
+export const parseUselessFact = (data) => {
+  const uselessFact = data.text;
+  return uselessFact;
+};

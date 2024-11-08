@@ -39,17 +39,17 @@
   color: rgba(43, 230, 49, 0.8);
 }
 
-.header__button_hover_blue:hover {
+.header__link_hover_blue:hover {
   color: rgba(95, 152, 236, 0.8);
 }
-
-.header__button_hover_yellow:hover {
+.header__link_hover_yellow:hover {
   color: rgba(240, 242, 68, 0.8);
 }
+
 .header__button_hover_maroon:hover {
   color: rgba(111, 0, 8, 0.8);
 }
-.header__button_hover_purple:hover {
+.header__link_hover_purple:hover {
   color: rgba(153, 0, 190, 0.8);
 }
 
@@ -61,6 +61,12 @@
   width: 95px;
   height: 75px;
   border-radius: 50%;
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  transition: color 1s linear 0s;
 }
 
 @media screen and (max-width: 880px) {

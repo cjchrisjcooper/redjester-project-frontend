@@ -1,10 +1,10 @@
 import "./UselessFact.css";
 
-const UselessFact = () => {
-  console.log("Useless facts works");
+const UselessFact = ({ uselessFact }) => {
   return (
-    <div>
-      <p>Hello</p>
+    <div className="uselessFact">
+      <p className="uselessFact__intro">USELESS FACT OF THE DAY</p>
+      <p className="uselessFact__fact">{`"${uselessFact}"`}</p>
     </div>
   );
 };
