@@ -1,8 +1,11 @@
 .uselessFact {
   max-width: 100%;
+  padding: 0px 15px 0px;
+  margin: 15px auto 15px;
 }
 
 .uselessFact__intro {
+  margin: 0 auto 0;
   font-family: BebasNeue-Regular, sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -12,6 +15,7 @@
 }
 
 .uselessFact__fact {
+  margin: 25px auto 0;
   font-family: BebasNeue-Regular, sans-serif;
   color: rgba(98, 92, 95, 0.8);
   font-size: 20px;

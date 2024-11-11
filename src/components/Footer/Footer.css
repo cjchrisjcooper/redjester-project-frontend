@@ -4,9 +4,11 @@
   justify-content: space-between;
   position: fixed;
   left: 0;
-  bottom: 10px;
+  bottom: 0px;
   width: 100%;
   padding: 10px;
+  background-color: rgba(202, 24, 24, 1);
+  color: white;
 }
 
 .Footer__date {

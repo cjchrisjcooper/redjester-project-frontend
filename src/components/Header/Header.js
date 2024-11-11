@@ -10,23 +10,14 @@ const Header = ({ handleRegisterModal, handleSubscribeModal }) => {
         </Link>
       </div>
       <div className="header__main-content">
-        {/* <button className="header__button header__button_hover_purple">
+        <button className="header__button header__button_hover_purple">
           <Link
-            to={`${url}/games`}
+            to="/useless-fact"
             className="header__link header__link_hover_purple"
           >
-            Games
+            USELESS FACT
           </Link>
         </button>
-
-        <button className="header__button header__button_hover_blue">
-          <Link
-            to={`${url}/meet-the-team`}
-            className="header__link header__link_hover_blue"
-          >
-            Meet the Team
-          </Link>
-        </button> */}
 
         <button className="header__button header__button_hover_yellow">
           <Link

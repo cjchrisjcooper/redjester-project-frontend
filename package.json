@@ -1,7 +1,7 @@
 {
   "name": "red-jester-frontend",
   "version": "0.1.0",
-  "homepage": "https://cjchrisjcooper.github.io/redjester-project-frontend/react-gh-pages",
+  "homepage": "http://cjchrisjcooper.github.io/redjester-project-frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

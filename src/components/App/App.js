@@ -6,11 +6,12 @@ import Footer from "../Footer/Footer.js";
 import RegisterModal from "../RegisterModal/RegisterModal.js";
 import SubscribeModal from "../SubscribeModal/SubscribeModal.js";
 import { useEffect, useState } from "react";
-import { Route, Switch, useRouteMatch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import {
   getUselessFact,
   parseUselessFact,
 } from "../../Utils/UselessFactsApi.js";
+import UselessFact from "../UselessFact/UselessFact.js";
 function App() {
   const [activeModal, setActiveModal] = useState("");
   const [uselessFact, setUselessFact] = useState("");
@@ -41,11 +42,14 @@ function App() {
         handleSubscribeModal={handleSebscribeModal}
       />
       <Switch>
+        <Route path="/useless-fact">
+          <UselessFact uselessFact={uselessFact} />
+        </Route>
         <Route path="/about-us">
           <AboutUs />
         </Route>
         <Route path="/">
-          <Main uselessMainFact={uselessFact} />
+          <Main />
         </Route>
       </Switch>
 
