@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/redjester-project-frontend/react-gh-pages/static/css/main.5ef0aaf5.css",
+    "main.js": "/redjester-project-frontend/react-gh-pages/static/js/main.67fd5472.js",
+    "static/js/453.4d0eb4e4.chunk.js": "/redjester-project-frontend/react-gh-pages/static/js/453.4d0eb4e4.chunk.js",
+    "static/media/CopyRedJester1.jpg": "/redjester-project-frontend/react-gh-pages/static/media/CopyRedJester1.9ecd07b7d826b12e997e.jpg",
+    "static/media/BebasNeue-Regular.woff": "/redjester-project-frontend/react-gh-pages/static/media/BebasNeue-Regular.424d660e68902a7d5a3d.woff",
+    "index.html": "/redjester-project-frontend/react-gh-pages/index.html",
+    "static/media/CloseButton.svg": "/redjester-project-frontend/react-gh-pages/static/media/CloseButton.5041c8cbf1275be14ac1.svg",
+    "main.5ef0aaf5.css.map": "/redjester-project-frontend/react-gh-pages/static/css/main.5ef0aaf5.css.map",
+    "main.67fd5472.js.map": "/redjester-project-frontend/react-gh-pages/static/js/main.67fd5472.js.map",
+    "453.4d0eb4e4.chunk.js.map": "/redjester-project-frontend/react-gh-pages/static/js/453.4d0eb4e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ef0aaf5.css",
+    "static/js/main.67fd5472.js"
+  ]
+}
